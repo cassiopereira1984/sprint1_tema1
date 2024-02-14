@@ -65,3 +65,9 @@
         .pie{
             background: #e6af2e;
         }
+
+        @media all and (max-width: 800px) {
+            .section{
+                flex-direction: column;
+                }
+            }
