@@ -1,11 +1,14 @@
 *{
     margin: 10px;
     padding: 10px;
-    box-sizing: border-box;a
+    box-sizing: border-box;
+}
+.princial{
+    display: flex;
+    max-width: 1200px;
 }
     .header{
         background: #000;
-        width: 1200px;
         display: flex;
         flex-flow: column nowrap;
     }
@@ -34,7 +37,6 @@
             }
     .section{
         background: #000;
-        width: 1200px;
         display: flex;
     }
         .articulo{
@@ -60,7 +62,6 @@
             }
     .footer{
         background: #000;
-        width: 1200px;
     }
         .pie{
             background: #e6af2e;
@@ -69,6 +70,7 @@
 @media all and (max-width: 800px) {
     .section{
         flex-direction: column;
+        background: #4e4e6a;
     }
 }
 @media all and (max-width: 400px) {
