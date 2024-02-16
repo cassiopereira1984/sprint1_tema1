@@ -26,7 +26,6 @@
             .nav{
                 background: #ea5455;
                 flex: 5 1 auto;
-                flex-direction: row;
             }
                 .home1{
                     background-image: url(source/favicon.ico);
