@@ -5,7 +5,7 @@
 }
 .princial{
     display: flex;
-    max-width: 1201px;
+    max-width: 1200px;
 }
     .header{
         background: #000;
@@ -20,20 +20,34 @@
             .logo{
                 background: #ea5455;
                 flex: 1 1 auto;
+                background-image: url(source/logo.png);
+                background-position: center;
             }
             .nav{
                 background: #ea5455;
                 flex: 5 1 auto;
+                flex-direction: row;
             }
+                .home1{
+                    background-image: url(source/favicon.ico);
+                }
+                .rutas1{
+                    background-image: url(source/favicon.ico);
+                }
+                .historia1{
+                    background-image: url(source/favicon.ico);
+                }
             .social{
                 background: #ea5455;
                 flex: 1 1 auto;
             }
         .texto-princial{
             background: #f07b3f;
+            background-image: url(source/header.jpg);
+            background-position: center;
         }
             .centro{
-                background: #ffd460;
+                text-align: center;
             }
     .section{
         background: #000;
