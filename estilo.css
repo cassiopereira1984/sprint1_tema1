@@ -22,20 +22,17 @@
                 flex: 1 1 auto;
                 background-image: url(source/logo.png);
                 background-position: center;
+                background-repeat: no-repeat;
             }
             .nav{
                 background: #ea5455;
                 flex: 5 1 auto;
             }
-                .home1{
-                    background-image: url(source/favicon.ico);
+                .ul{
+                
                 }
-                .rutas1{
-                    background-image: url(source/favicon.ico);
-                }
-                .historia1{
-                    background-image: url(source/favicon.ico);
-                }
+                    .li{
+                    }
             .social{
                 background: #ea5455;
                 flex: 1 1 auto;
@@ -47,6 +44,7 @@
         }
             .centro{
                 text-align: center;
+                opacity: .7;
             }
     .section{
         background: #000;
