@@ -13,30 +13,46 @@
         flex-flow: column nowrap;
     }
         .menu{
-            background: #2d4059;
             display: flex;
             flex-flow: row nowrap;
         }
             .logo{
-                background: #ea5455;
                 flex: 1 1 auto;
                 background-image: url(source/logo.png);
+                background-size: auto;
                 background-position: center;
-                background-repeat: no-repeat;
+                background-repeat: no-repeat;   
             }
             .nav{
-                background: #ea5455;
-                flex: 5 1 auto;
+                flex: 2 1 auto;
+                align-items: center;
+                justify-content: center;
             }
                 .ul{
-                
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: center;
+                    align-items: center;
+                    list-style-type: none;
+
                 }
-                    .li{
-                    }
             .social{
-                background: #ea5455;
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
                 flex: 1 1 auto;
             }
+                .face{
+                    background-image: url(source/download.png);
+                    background-size: 80%;
+                    background-repeat: no-repeat;
+                }
+                .x{
+                    background-image: url(source/download\ \(1\).png);
+                    background-size: 80%;
+                    background-repeat: no-repeat;
+                }
         .texto-princial{
             background: #f07b3f;
             background-image: url(source/header.jpg);
