@@ -6,64 +6,40 @@
 .princial{
     display: flex;
     max-width: 1200px;
+    background: #000;
 }
     .header{
         background: #000;
+        width: 1200px;
         display: flex;
         flex-flow: column nowrap;
     }
         .menu{
+            background: #2d4059;
             display: flex;
             flex-flow: row nowrap;
         }
             .logo{
+                background: #ea5455;
                 flex: 1 1 auto;
-                background-image: url(source/logo.png);
-                background-size: auto;
-                background-position: center;
-                background-repeat: no-repeat;   
             }
             .nav{
-                flex: 2 1 auto;
-                align-items: center;
-                justify-content: center;
+                background: #ea5455;
+                flex: 5 1 auto;
             }
-                .ul{
-                    display: flex;
-                    flex-flow: row;
-                    justify-content: center;
-                    align-items: center;
-                    list-style-type: none;
-
-                }
             .social{
-                display: flex;
-                flex-flow: row;
-                justify-content: center;
-                align-items: center;
+                background: #ea5455;
                 flex: 1 1 auto;
             }
-                .face{
-                    background-image: url(source/download.png);
-                    background-size: 80%;
-                    background-repeat: no-repeat;
-                }
-                .x{
-                    background-image: url(source/download\ \(1\).png);
-                    background-size: 80%;
-                    background-repeat: no-repeat;
-                }
         .texto-princial{
             background: #f07b3f;
-            background-image: url(source/header.jpg);
-            background-position: center;
         }
             .centro{
-                text-align: center;
-                opacity: .7;
+                background: #ffd460;
             }
     .section{
         background: #000;
+        width: 1200px;
         display: flex;
     }
         .articulo{
@@ -89,15 +65,15 @@
             }
     .footer{
         background: #000;
+        width: 1200px;
     }
         .pie{
             background: #e6af2e;
         }
-
 @media all and (max-width: 800px) {
     .section{
         flex-direction: column;
-        background: #4e4e6a;
+        background: #000000;
     }
 }
 @media all and (max-width: 400px) {
