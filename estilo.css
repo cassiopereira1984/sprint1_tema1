@@ -5,12 +5,10 @@
 }
 .princial{
     display: flex;
-    max-width: 1200px;
-    background: #000;
+    flex-flow: column nowrap;
 }
     .header{
         background: #000;
-        width: 1200px;
         display: flex;
         flex-flow: column nowrap;
     }
@@ -39,7 +37,6 @@
             }
     .section{
         background: #000;
-        width: 1200px;
         display: flex;
     }
         .articulo{
@@ -65,18 +62,23 @@
             }
     .footer{
         background: #000;
-        width: 1200px;
     }
         .pie{
             background: #e6af2e;
         }
 @media all and (max-width: 800px) {
+    *{
+        background-color: #1f6cb0;
+    }
     .section{
         flex-direction: column;
-        background: #000000;
+        background: #bbff00;
     }
 }
 @media all and (max-width: 400px) {
+    *{
+        background-color: #ff0000;
+    }
     .menu{
         flex-direction: column;
     }
