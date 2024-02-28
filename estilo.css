@@ -2,10 +2,12 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
+    max-width: 1200px;
 }
 .princial{
     display: flex;
     flex-flow: column nowrap;
+    
 }
     .header{
         background: #000;
